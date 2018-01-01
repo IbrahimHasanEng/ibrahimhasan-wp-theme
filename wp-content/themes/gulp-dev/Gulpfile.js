@@ -1,4 +1,4 @@
-var themename = 'humescores';
+var themename = 'ibrahimhasan';
 
 var gulp = require('gulp'),
 	// Prepare and optimize code etc
@@ -26,7 +26,7 @@ gulp.task('css', function() {
 	return gulp.src(scss + '{style.scss,rtl.scss}')
 	.pipe(sourcemaps.init())
 	.pipe(sass({
-		outputStyle: 'expanded', 
+		outputStyle: 'expanded',
 		indentType: 'tab',
 		indentWidth: '1'
 	}).on('error', sass.logError))
@@ -58,7 +58,7 @@ gulp.task('javascript', function() {
 gulp.task('watch', function() {
 	browserSync.init({ 
 		open: 'external',
-		proxy: 'humescores.dev',
+		proxy: 'http://localhost/wp-ibrahim-hasan/',
 		port: 8080
 	});
 	gulp.watch([root + '**/*.css', root + '**/*.scss' ], ['css']);

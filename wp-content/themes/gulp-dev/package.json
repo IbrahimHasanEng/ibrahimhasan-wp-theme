@@ -1,5 +1,5 @@
 {
-  "name": "humescores",
+  "name": "ibrahimhasan",
   "version": "0.0.1",
   "description": "Accessible WordPress theme utilizing flex layouts and modern development practices.",
   "main": "index.php",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mor10/humescores"
+    "url": "git+https://github.com/IbrahimHasanEng/personalwebsite"
   },
-  "author": "Morten Rand-Hendriksen",
+  "author": "Ibrahim Hasan",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/mor10/humescores/issues"
+    "url": "https://github.com/IbrahimHasanEng/personalwebsite/issues"
   },
-  "homepage": "https://github.com/mor10/humescores#readme",
+  "homepage": "https://github.com/IbrahimHasanEng/personalwebsite/blob/master/readme.html",
   "devDependencies": {
     "autoprefixer": "^6.5.2",
     "browser-sync": "^2.17.6",
@@ -26,6 +26,10 @@
     "gulp-postcss": "^6.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^2.2.0",
+    "gulp-util": "^3.0.8",
     "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "node-sass": "^4.7.2"
   }
 }
